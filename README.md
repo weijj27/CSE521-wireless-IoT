@@ -1,1 +1,25 @@
-# CSE521-wireless-IoT
+## README
+-BlindController
+  - src
+    - HomePage
+      - index.js
+        - contains all components in the webpage
+    - index.css
+        - css style for the webpage
+    - index.js 
+        - the body of webpage
+  - api 
+    - api.py 
+      - back end connect with the AWS using MQTT and it can publish and subscribe message.
+  - package.json 
+    - contains all the dependencies for this project
+-lightIntensity
+  - lib
+    - contains the dependency of light sensor
+  - raspberry
+    - main.py
+      - scripts contain the main interface and main logic
+    - motor.py
+      - control the motor directly
+    - publish.py
+      - push some data to server directly
